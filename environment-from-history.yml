@@ -1,0 +1,15 @@
+name: alloy-debugger
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - streamlit
+  - ruff
+  - snowflake-connector-python
+  - requests
+  - ca-certificates
+  - certifi
+  - openssl
+  - polars
+prefix: /Users/markjackson/opt/anaconda3/envs/alloy-debugger

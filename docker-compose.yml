@@ -1,0 +1,14 @@
+services:
+  service:
+    image: alloy-debug-service:latest
+    build:
+      context: .
+    ports:
+      - 8501:8501
+    environment:
+      - OKTA_USERNAME
+      - SNOWFLAKE_ACCOUNT
+      - SNOWFLAKE_ROLE
+      - SNOWFLAKE_WAREHOUSE
+      - OKTA_PASSWORD
+      - SNOWFLAKE_TOKEN_GENERATOR_URL
