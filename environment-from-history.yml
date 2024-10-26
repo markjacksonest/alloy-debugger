@@ -12,4 +12,5 @@ dependencies:
   - certifi
   - openssl
   - polars
+  - jupyterlab
 prefix: /Users/markjackson/opt/anaconda3/envs/alloy-debugger
